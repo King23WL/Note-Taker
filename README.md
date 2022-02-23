@@ -1,5 +1,5 @@
 # Note Taker
-  ![badge](https://img.shields.io/github/license/kingwl/note-taker)<br>
+  ![badge](https://img.shields.io/github/license/King23WL/Note-Taker)<br>
   ## Description
   A note taker with voice input.
 
