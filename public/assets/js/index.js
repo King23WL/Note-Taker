@@ -14,6 +14,7 @@ try {
 }
 var voiceNote = '';
 /////////////////////////////////
+
 /*-----------------------------
       Voice Recognition 
 ------------------------------*/
@@ -40,7 +41,7 @@ recognition.onresult = function(event) {
     var mobileRepeatBug = (current == 1 && transcript == event.results[0][0].transcript);
 
     if (!mobileRepeatBug) {
-        voiceNote+= transcript;
+        voiceNote += transcript;
         $noteText.val(voiceNote);
     }
 };
@@ -243,8 +244,10 @@ $noteList.on("click", ".list-group-item", handleNoteView);
 $newNoteBtn.on("click", handleNewNoteView);
 $noteList.on("click", ".delete-note", handleNoteDelete);
 $noteTitle.on("keyup", handleRenderSaveBtn);
-$noteText.on("keyup", handleRenderSaveBtn);
-
+//$noteText.on("keyup", handleRenderSaveBtn);
+$noteText.on("input",function(){
+  voiceNote=$(this).val();
+})
 $('#start-rec').on('click', function(e) {
   if (voiceNote.length) {
     voiceNote += ' ';
