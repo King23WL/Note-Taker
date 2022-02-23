@@ -1,5 +1,5 @@
 # Note Taker
-  ![badge](https://img.shields.io/badge/license--brightgreen)<br>
+  ![badge](https://img.shields.io/github/license/kingwl/note-taker)<br>
   ## Description
   A note taker with voice input.
 
@@ -19,7 +19,7 @@
   ## Usage
   
 
-  ## DeployedLink
+  ## Deployed Link
   [Deployed Link](https://ez-note-taker.herokuapp.com/)
 
   ## License
