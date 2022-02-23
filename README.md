@@ -23,7 +23,7 @@
   [Deployed Link](https://ez-note-taker.herokuapp.com/)
 
   ## License
-  ![badge](https://img.shields.io/badge/license--brightgreen)
+  ![badge](https://img.shields.io/github/license/King23WL/Note-Taker)
 
  
 
